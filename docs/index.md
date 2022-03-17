@@ -123,7 +123,7 @@ Nginx current stable release : <strong>v1.18.0</strong></p>
 <li>without naxsi</li>
 <li>without rtmp</li>
 </ul>
-<pre><code class="language-bash">bash &lt;(wget -O - git.wooserv.com/nginx-ws || curl -sL git.wooserv.com/nginx-ws)
+<pre><code class="language-bash">bash &lt;(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws)
 </code></pre>
 <h3 id="alternative-install-method">Alternative Install Method</h3>
 <pre><code class="language-bash">git clone https://github.com/ihfbib/nginx-ws
@@ -132,11 +132,11 @@ sudo bash nginx-build.sh
 </code></pre>
 <h3 id="interactive-install">Interactive install</h3>
 <p>Interactive installation is available with arguments <code>-i</code> or <code>--interactive</code></p>
-<pre><code class="language-bash">bash &lt;(wget -O - git.wooserv.com/nginx-ws || curl -sL git.wooserv.com/nginx-ws) --interactive
+<pre><code class="language-bash">bash &lt;(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --interactive
 </code></pre>
 <h3 id="custom-installation">Custom installation</h3>
 <p>Example : Nginx stable release with pagespeed and naxsi</p>
-<pre><code class="language-bash">bash &lt;(wget -O - git.wooserv.com/nginx-ws || curl -sL git.wooserv.com/nginx-ws) --stable --pagespeed --naxsi
+<pre><code class="language-bash">bash &lt;(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --stable --pagespeed --naxsi
 </code></pre>
 <h4 id="options-available">Options available</h4>
 <p>Nginx build options :</p>

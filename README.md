@@ -136,7 +136,7 @@ Optional modules :
 * without rtmp
 
 ```bash
-bash <(wget -qO - git.wooserv.com/nginx-ws || curl -sL git.wooserv.com/nginx-ws)
+bash <(wget -qO - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws)
 ```
 
 ### Alternative Install Method
@@ -152,7 +152,7 @@ sudo bash nginx-build.sh
 Interactive installation is available with arguments `-i` or `--interactive`
 
 ```bash
-bash <(wget -O - git.wooserv.com/nginx-ws || curl -sL git.wooserv.com/nginx-ws) --interactive
+bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --interactive
 ```
 
 ### Custom installation
@@ -160,7 +160,7 @@ bash <(wget -O - git.wooserv.com/nginx-ws || curl -sL git.wooserv.com/nginx-ws) 
 Example : Nginx stable release with pagespeed and naxsi
 
 ```bash
-bash <(wget -O - git.wooserv.com/nginx-ws || curl -sL git.wooserv.com/nginx-ws) --stable --pagespeed --naxsi
+bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --stable --pagespeed --naxsi
 ```
 
 #### Options available

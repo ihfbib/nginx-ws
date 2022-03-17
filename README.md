@@ -82,7 +82,6 @@ For Nginx http_ssl_module :
 
 Optional modules :
 
-* [ngx_pagespeed](https://github.com/apache/incubator-pagespeed-ngx)
 * [naxsi WAF](https://github.com/nbs-system/naxsi)
 * [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module)
 
@@ -131,7 +130,6 @@ Optional modules :
 
 * mainline release
 * openssl stable : 1.1.1g
-* without pagespeed
 * without naxsi
 * without rtmp
 
@@ -157,10 +155,10 @@ bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --
 
 ### Custom installation
 
-Example : Nginx stable release with pagespeed and naxsi
+Example : Nginx stable release with naxsi
 
 ```bash
-bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --stable --pagespeed --naxsi
+bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --stable --naxsi
 ```
 
 #### Options available
@@ -168,14 +166,12 @@ bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --
 Nginx build options :
 
 * `--stable` : compile Nginx stable release
-* `--full` : Naxsi + PageSpeed + RTMP
+* `--full` : Naxsi + RTMP
 * `--dynamic` : Compile Nginx modules as dynamic modules
 * `--noconf` : Compile Nginx without any configuring. Useful when you use devops tools like ansible.
 
 Optional third-party modules :
 
-* `--pagespeed`: compile nginx with ngx_pagespeed latest-stable
-* `--pagespeed-beta`: compile nginx with ngx_pagespeed latest-beta
 * `--naxsi` : compile nginx with naxsi
 * `--rtmp` : compile nginx with rtmp module
 * `--libressl` : compile nginx with LibreSSL instead of OpenSSL

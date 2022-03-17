@@ -75,7 +75,6 @@ Nginx current stable release : <strong>v1.18.0</strong></p>
 </ul>
 <p>Optional modules :</p>
 <ul>
-<li><a href="https://github.com/apache/incubator-pagespeed-ngx">ngx_pagespeed</a></li>
 <li><a href="https://github.com/nbs-system/naxsi">naxsi WAF</a></li>
 <li><a href="https://github.com/arut/nginx-rtmp-module">nginx-rtmp-module</a></li>
 </ul>
@@ -119,7 +118,6 @@ Nginx current stable release : <strong>v1.18.0</strong></p>
 <ul>
 <li>mainline release</li>
 <li>openssl stable : 1.1.1g</li>
-<li>without pagespeed</li>
 <li>without naxsi</li>
 <li>without rtmp</li>
 </ul>
@@ -135,20 +133,18 @@ sudo bash nginx-build.sh
 <pre><code class="language-bash">bash &lt;(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --interactive
 </code></pre>
 <h3 id="custom-installation">Custom installation</h3>
-<p>Example : Nginx stable release with pagespeed and naxsi</p>
-<pre><code class="language-bash">bash &lt;(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --stable --pagespeed --naxsi
+<p>Example : Nginx stable release with naxsi</p>
+<pre><code class="language-bash">bash &lt;(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --stable --naxsi
 </code></pre>
 <h4 id="options-available">Options available</h4>
 <p>Nginx build options :</p>
 <ul>
 <li><code>--stable</code> : compile Nginx stable release</li>
-<li><code>--full</code> : Naxsi + PageSpeed + RTMP</li>
+<li><code>--full</code> : Naxsi + RTMP</li>
 <li><code>--dynamic</code> : Compile Nginx modules as dynamic modules</li>
 </ul>
 <p>Optional third-party modules :</p>
 <ul>
-<li><code>--pagespeed</code>: compile nginx with ngx_pagespeed latest-stable</li>
-<li><code>--pagespeed-beta</code>: compile nginx with ngx_pagespeed latest-beta</li>
 <li><code>--naxsi</code> : compile nginx with naxsi</li>
 <li><code>--rtmp</code> : compile nginx with rtmp module</li>
 <li><code>--libressl</code> : compile nginx with LibreSSL instead of OpenSSL</li>

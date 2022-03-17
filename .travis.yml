@@ -34,9 +34,7 @@ script:
   - sudo bash nginx-build.sh --travis || exit 1
   - sudo bash nginx-build.sh --travis --stable  || exit 1
   - sudo bash nginx-build.sh --travis --full  || exit 1
-  - sudo bash nginx-build.sh --travis --pagespeed-beta  || exit 1
   - sudo bash nginx-build.sh --travis --libressl  || exit 1
-  - sudo bash nginx-build.sh --travis --pagespeed-beta  || exit 1
   - sudo ls -alh /usr/sbin/nginx
   - sudo chown -R travis /usr/local/src
   - sudo chmod 755 /usr/local/src

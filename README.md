@@ -19,8 +19,7 @@ Automated Nginx compilation from sources with additional modules support
 <img src="https://img.shields.io/github/last-commit/ihfbib/nginx-ws/master.svg?style=flat" alt="Commits">
 <br>
 <img src="https://img.shields.io/github/release/ihfbib/nginx-ws.svg?style=flat" alt="GitHub release">
-<a href="https://www.codacy.com/app/ihfbib/nginx-ws?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ihfbib/nginx-ws&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/61fe95d2311241b6b5051a04493a43c2" alt="codacy"/></a>
-<a href="https://www.codefactor.io/repository/github/ihfbib/nginx-ws"><img src="https://www.codefactor.io/repository/github/ihfbib/nginx-ws/badge" alt="CodeFactor" /></a></p>
+<a href="https://www.codacy.com/app/ihfbib/nginx-ws?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ihfbib/nginx-ws&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/61fe95d2311241b6b5051a04493a43c2" alt="codacy"/></a></p>
 
 
 

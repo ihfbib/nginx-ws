@@ -403,7 +403,7 @@ _nginx_from_scratch_setup() {
     if {
         # clone custom nginx configuration
         [ ! -d /etc/nginx ] && {
-            git clone --depth 50 https://github.com/VirtuBox/nginx-config.git /etc/nginx
+            git clone --depth 50 https://github.com/ihfbib/nginx-config.git /etc/nginx
         } >>/tmp/nginx-ws.log 2>&1
 
         # create nginx temp directory

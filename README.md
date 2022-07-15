@@ -134,7 +134,7 @@ Optional modules :
 * without rtmp
 
 ```bash
-bash <(wget -qO - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws)
+bash <(wget -qO - https://bit.ly/nginx-ws || curl -sL https://bit.ly/nginx-ws)
 ```
 
 ### Alternative Install Method
@@ -150,7 +150,7 @@ sudo bash nginx-build.sh
 Interactive installation is available with arguments `-i` or `--interactive`
 
 ```bash
-bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --interactive
+bash <(wget -O - https://bit.ly/nginx-ws || curl -sL https://bit.ly/nginx-ws) --interactive
 ```
 
 ### Custom installation
@@ -158,7 +158,7 @@ bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --
 Example : Nginx stable release with naxsi
 
 ```bash
-bash <(wget -O - rd.wooserv.com/nginx-ws || curl -sL rd.wooserv.com/nginx-ws) --stable --naxsi
+bash <(wget -O - https://bit.ly/nginx-ws || curl -sL https://bit.ly/nginx-ws) --stable --naxsi
 ```
 
 #### Options available
@@ -218,4 +218,4 @@ If you'd like to contribute, please fork the repository and make changes as you'
 
 ## License
 
-[MIT](https://github.com/ihfbib/nginx-ws/blob/master/LICENSE) © <a href="https://www.wooserv.com" title="WooServ" target="_blank">WooServ</a>
+[MIT](https://github.com/ihfbib/nginx-ws/blob/master/LICENSE) © <a href="https://www.wooserv.com" title="WooServ LLC" target="_blank">WooServ LLC</a>
